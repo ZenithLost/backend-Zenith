@@ -53,3 +53,7 @@ mongoose.connect(mongoURI, {
 app.listen(port, () => {
   console.log(`Servidor rodando na porta ${port}`);
 });
+app.get('/', (req, res) => {
+  res.send({ message: 'Backend funcionando no Vercel!' });
+});
+
