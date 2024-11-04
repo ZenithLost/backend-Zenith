@@ -1,4 +1,4 @@
-require('dotenv').config(); // Carregar as variáveis de ambiente no topo
+require('dotenv').config(); // Carregar as variáveis de ambiente no topo impotação
 
 const express = require('express');
 const cors = require('cors'); // Importar o pacote CORS
